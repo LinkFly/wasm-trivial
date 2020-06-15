@@ -1,0 +1,17 @@
+{
+  "name": "wasm-trivial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:debug": "nodemon --config nodemon-debug.json",
+    "build": "node --require ts-node/register src/build.ts"
+  },
+  "devDependencies": {
+    "@wasm/studio-utils": "*",
+    "http-server": "^0.12.3",
+    "nodemon": "^2.0.4",
+    "ts-node": "~5.0.0",
+    "typescript": "~2.7.2"
+  }
+}

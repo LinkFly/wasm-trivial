@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "exec": "node --inspect-brk --require ts-node/register src/build.ts"
+}
+
